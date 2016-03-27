@@ -26,7 +26,7 @@ public class Test {
   public void test() throws Exception {
     driver.get(baseUrl + "/?gws_rd=ssl");
     driver.findElement(By.id("lst-ib")).clear();
-    driver.findElement(By.id("lst-ib")).sendKeys("gjvbcr");
+    driver.findElement(By.id("lst-ib")).sendKeys("poiskovic");
     driver.findElement(By.linkText("Поиск @ EX.UA")).click();
   }
 
